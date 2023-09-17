@@ -1,0 +1,29 @@
+{
+  "name": "gestion_inventario_tienda",
+  "version": "1.0.0",
+  "description": "An inventory manager for a clothes store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorena1211/gestion_inventario_tienda.git"
+  },
+  "author": "Lorena Naranjo Arias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorena1211/gestion_inventario_tienda/issues"
+  },
+  "homepage": "https://github.com/lorena1211/gestion_inventario_tienda#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
